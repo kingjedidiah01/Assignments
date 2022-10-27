@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Reg_pge.css" />
+    <title>Registration Page</title>
+  </head>
+  <body>
+    <div class="closure">
+      <form id="register">
+        <h1 id="heading">Register Here</h1>
+        <p id="heading2"><b>Note:</b> Fill in your correct details</p>
+
+        <br />
+        <div>
+          <label for="name-label" id="name">Last Name:</label>
+          <input type="text" required id="name" name="user-name" />
+        </div>
+        <div>
+          <label for="name-label" id="name">First Name:</label>
+          <input type="text" required id="name" name="user-name" />
+        </div>
+        <div>
+          <label id="word" for="phone-label" id="name">Phone Number:</label>
+          <input
+            type="tel"
+            required
+            id="number"
+            name="Phone Number"
+            maxlength="11"
+          />
+        </div>
+        <div>
+          <label id="word" for="email-label" id="email">Email:</label>
+          <input type="email" required id="email" name="user-email" />
+        </div>
+
+        <div class="others">
+          <label id="word" for="Gender">Gender:</label>
+          <select name="Gender">
+            <option value="Male">male</option>
+            <option value="Female">Female</option>
+          </select>
+        </div>
+        <div class="others">
+          <label id="word" for="date">Date of Birth</label>
+          <input type="date" name="date" />
+        </div>
+
+        <label id="word" for="favcolor">Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000" />
+
+        <div class="button">
+          <a href="../IN4G/Login page.html">Submit</a>
+        </div>
+        <p class="message">
+          Registered?
+          <a href="../IN4G/Login page.html">Click to login</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
