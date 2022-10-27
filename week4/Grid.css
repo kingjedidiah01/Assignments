@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  display: grid;
+  place-items: center;
+  display: flex;
+  height: 50vh;
+}
+main {
+  display: grid;
+  grid-template-areas:
+    "a a a b b"
+    "a a a b b"
+    "c c d d d"
+    "c c e e e";
+  gap: 5px;
+  width: 50%;
+  margin: auto;
+}
+.first {
+  background-color: hsl(357, 76%, 54%);
+  grid-area: a;
+  height: 50px;
+  padding: 10%;
+}
+.second {
+  background-color: hsl(29, 100%, 59%);
+  grid-area: b;
+}
+.third {
+  background-color: hsl(134, 90%, 15%);
+  grid-area: c;
+  height: 50px;
+  padding: 50px;
+}
+.fourth {
+  background-color: hsl(197, 93%, 37%);
+  grid-area: d;
+}
+.fifth {
+  background-color: hsl(197, 93%, 37%);
+  grid-area: e;
+}
