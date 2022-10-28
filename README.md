@@ -1,5 +1,5 @@
 # Assignments
- here's my tasks so far in the Zuri training, full-stack development track.
+ here's my tasks so far in the Zuri training, front end development, full-stack development track.
  
  week3 is CSS fundamentals and i created a portfolion and a registration page, login page, success page as a task
  
